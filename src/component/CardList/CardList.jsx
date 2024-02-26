@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../Card/Card";
-import data from "../../data/tariff.json";
+import data from "../../assets/data/tariff.json";
 import style from "./cardList.module.scss";
 
 function CardList() {

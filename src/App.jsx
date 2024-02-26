@@ -1,14 +1,7 @@
 import "../src/assets/style/App.scss";
-import CardList from "./assets/component/CardList/CardList";
+import CardList from "./component/CardList/CardList";
 
 function App() {
-  return (
-    <>
-      <h1>
-        <CardList />
-      </h1>
-    </>
-  );
+  return <CardList />;
 }
-
 export default App;
